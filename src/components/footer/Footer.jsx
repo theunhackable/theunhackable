@@ -2,7 +2,10 @@ import './footer.css'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer id="footer">
+      {/* <ContactCard /> */}
+      <p>COPYRIGHT 2023 © SRI RANGA SAI PAGALA</p>
+    </footer>
   )
 }
 

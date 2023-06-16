@@ -10,16 +10,17 @@ function Contact() {
     <section id="contact">
       <SubHeading text="Contact" />
       <div className="contact-container">
-        <form action="">
+        <form  className="form-container" action="">
           <div className="contact-basic">
             <label htmlFor="fullName">Name:</label>
             <input id="fullName" type="text" placeholder='Your Name Please ...'/>
             <label htmlFor="email">Email:</label>
             <input id="email" type="email" placeholder='Your Email ID Please ...'/>
-            <button>Submit <img src={submit} alt="submil" /></button>
+            <button className='contact-submit' >Submit <img src={submit} alt="submil" /></button>
           </div>
           <div className="contact-desc">
-            <textarea rows="4" cols="15"></textarea>
+            <label htmlFor="message">Your Message:</label>  
+            <textarea id="message" placeholder='Your Message here ...'></textarea>
           </div>
         </form>
       </div>

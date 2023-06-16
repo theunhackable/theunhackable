@@ -1,5 +1,5 @@
 import { SubHeading, ContactCard } from '../../containers';
-import hero_img from '../../assets/images/hero-image-dark.png'
+import hero_img from '../../assets/images/hero-image-dark .png'
 import './hero.css';
 function Hero() {
   return (

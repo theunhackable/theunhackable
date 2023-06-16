@@ -5,12 +5,13 @@
   color: #CBDDFF;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
-  scroll-snap-type:y proximity;
+  /* scroll-snap-type:y proximity; */
   font-family: sans-serif;
 }
 
 section{
   scroll-snap-align: start;
+  margin: 2rem 6rem;
 }
 
 font-face {
@@ -26,6 +27,8 @@ body{
   background: linear-gradient(171.62deg, #203A43 1.76%, #18122B 46.69%, #0F2027 86.46%);
   background-repeat:no-repeat;
   padding-top: 10rem;
+  max-width: 1900px;
+  margin: 0 auto;
 }
 
 
@@ -43,4 +46,19 @@ body{
 ::-webkit-scrollbar-thumb {
   background: #21B4E2;
   border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 1100px){
+  section{
+    margin: 2rem 2rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 450px){
+  section{
+    margin: 1rem 0rem;
+  }
 }

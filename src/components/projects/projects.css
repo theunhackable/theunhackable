@@ -5,6 +5,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 1.5rem;
-    width: 80%;
+    
     margin: 5rem auto;
 }
