@@ -1,0 +1,45 @@
+.buffer{
+    margin-top: 150px;
+}
+
+#hero{
+    /* padding: 0 10rem; */
+        
+
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    
+}
+
+.hero-image{
+    width: 40%;
+    max-width: 500px;
+    
+}
+
+.hero-text h1{
+    font-family: 'Mokoto', sans-serif;
+
+
+    font-size: 5rem;
+    -webkit-text-stroke: 4px #000;
+    background: linear-gradient(to right, #B7DEED 0%, #71CEEF 25%, #21B4E2 75%, #B7DEED 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 5px#B7DEED;
+
+}
+
+.hero-text h3{
+    font-family: 'Istok Web', 'sans';   
+    font-size: 2rem;
+    margin: 3rem 0;
+
+}
+.hero-text .intro{
+    margin: 1rem 0;
+}

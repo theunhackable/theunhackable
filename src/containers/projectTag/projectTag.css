@@ -1,0 +1,12 @@
+.project-tag {
+    display: flex;
+    justify-content: center;
+    gap: 0.1rem;
+    align-items: center;
+    padding: 0.1rem;
+    border-radius: 25px;
+    }
+
+.project-tag > img {
+    width: 20px;
+}

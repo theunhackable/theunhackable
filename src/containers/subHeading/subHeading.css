@@ -1,0 +1,22 @@
+/* container */
+.sub-heading-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.sub-heading{
+    font-family: sans-serif;
+    color: #CBDDFF;
+}
+.gradient-bar{
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg, #00526B 0%, #5ABCDB 100%);
+    border-radius: 10px;
+    
+
+}

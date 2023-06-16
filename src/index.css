@@ -1,13 +1,46 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  color: #CBDDFF;
+  scroll-behavior: smooth;
+  scroll-padding-top: 7rem;
+  scroll-snap-type:y proximity;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section{
+  scroll-snap-align: start;
+}
+
+font-face {
+  font-family: 'Mokoto';
+  src: url('./assets/fonts/Mokoto.ttf')
+}
+font-face {
+  font-family: 'Istok Web';
+  src: url('./assets/fonts/IstokWeb.ttf')
+}
+body{
+
+  background: linear-gradient(171.62deg, #203A43 1.76%, #18122B 46.69%, #0F2027 86.46%);
+  background-repeat:no-repeat;
+  padding-top: 10rem;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+::-webkit-scrollbar-track {
+  background: #000000a4; 
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #21B4E2;
+  border-radius: 10px;
 }
