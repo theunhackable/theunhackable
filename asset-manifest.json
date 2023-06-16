@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/github.io/static/css/main.c27f19d9.css",
+    "main.js": "/github.io/static/js/main.36e6f398.js",
+    "static/media/about-image.png": "/github.io/static/media/about-image.72b3da17259fa83559ab.png",
+    "static/media/hero-image-dark.png": "/github.io/static/media/hero-image-dark.0d5848bc5506a6060c73.png",
+    "static/media/gpt3.png": "/github.io/static/media/gpt3.0a213a6b65cd6ac0683a.png",
+    "static/media/IstokWeb.ttf": "/github.io/static/media/IstokWeb.50996525c2c1ba8165b1.ttf",
+    "static/media/Mokoto.ttf": "/github.io/static/media/Mokoto.b5028ec70d498a4e7f7b.ttf",
+    "static/media/sass.svg": "/github.io/static/media/sass.4aec5b382169dfda34bb98650dfe65ca.svg",
+    "static/media/react.svg": "/github.io/static/media/react.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/linux.svg": "/github.io/static/media/linux.1ae7229d28d57fb184b684dd6602cf64.svg",
+    "static/media/moon2.svg": "/github.io/static/media/moon2.a9fa8eb69383b996081dff8d746616e8.svg",
+    "static/media/github.svg": "/github.io/static/media/github.8d1bc524d64f25bee143d25b34c557ac.svg",
+    "static/media/nodejs.svg": "/github.io/static/media/nodejs.84bc79520234d12867aeeb34e1c5cf24.svg",
+    "static/media/mongo.svg": "/github.io/static/media/mongo.eb842895e80bd61dd471f2b70345feab.svg",
+    "static/media/python.svg": "/github.io/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/github-round.svg": "/github.io/static/media/github-round.9a4904420f5dc9c01fcdfa50b13a6a1c.svg",
+    "static/media/git.svg": "/github.io/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/js.svg": "/github.io/static/media/js.fef7215d0d3e578f01ad70419d4c4308.svg",
+    "static/media/css.svg": "/github.io/static/media/css.88a9893bf7a52d78f6f1b9ef87a6f0a0.svg",
+    "static/media/linkedin.svg": "/github.io/static/media/linkedin.6a856c2a744813b88acb2701a0b357fd.svg",
+    "static/media/express.svg": "/github.io/static/media/express.128711a6437be2fa47956785bb500083.svg",
+    "static/media/send.svg": "/github.io/static/media/send.d6c4f1a195d877eb7c54eb225cada018.svg",
+    "static/media/mail.svg": "/github.io/static/media/mail.37dc18e759edabcffd2d8e30471e1ee8.svg",
+    "static/media/preview.svg": "/github.io/static/media/preview.75b41bb4db231e03bf5cb3e174998d81.svg",
+    "static/media/html-5.svg": "/github.io/static/media/html-5.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "index.html": "/github.io/index.html",
+    "main.c27f19d9.css.map": "/github.io/static/css/main.c27f19d9.css.map",
+    "main.36e6f398.js.map": "/github.io/static/js/main.36e6f398.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c27f19d9.css",
+    "static/js/main.36e6f398.js"
+  ]
+}
