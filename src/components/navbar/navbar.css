@@ -80,9 +80,10 @@ nav{
 
 }
 
-.ham-navigation-container{
+.nav-hamburger, .ham-navigation-container{
     display: none;
 }
+
 
 @media only screen and (max-width: 860px) {
     nav{

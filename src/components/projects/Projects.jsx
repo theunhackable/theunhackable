@@ -30,19 +30,8 @@ function Projects() {
       skills: ["HTML", "CSS", 'JavaScript', 'Python'],
       img: cryptor
 
-    },
-    {
-      heading: 'Vryptor',
-      desc: `Cryptor is a web application deployed on pythonanywhere.This website is used to encrypt and decrypt text files.
-      It takes text file as input, encrypted or decrypted according to the user requirement and produce output as a text file.
-      Used HTML and CSS for front-end, Flask(Python3) for back-end.
-      Used JavaScript for input validation.`,
-      github:'https://github.com/theunhackable/cryptor',
-      live: 'http://cryptor.pythonanywhere.com/',
-      skills: ["HTML", "CSS", 'JavaScript', 'Python'],
-      img: cryptor
-
     }
+   
   ]
   return (
     <section id="projects">
