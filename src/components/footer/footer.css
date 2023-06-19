@@ -8,3 +8,17 @@
     font-weight: 700;
     color:#CBDDFF
 }
+
+@media only screen and (max-width: 860px) {
+    #footer{
+        background-color: #51647BAA;
+        display: flex;
+        justify-content: space-around;
+        padding: 0.3rem;
+    }
+    #footer p{
+        font-size: 0.7rem;
+        font-weight: 700;
+        color:#CBDDFF
+    }
+}
