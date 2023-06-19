@@ -1,8 +1,9 @@
 .project-card-container{
-    max-width: 500px;
+    max-width: 35rem;
     object-fit: cover;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 1rem;
     border: 4px solid;
     border-radius: 10px;
@@ -10,7 +11,7 @@
 }
 .project-image > img{
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     border-radius: 10px 10px 0 0;
 }
 .project-description{
@@ -28,7 +29,8 @@
 }
 .project-tags{
     display: grid;
-    grid-template-columns: auto auto auto;
+    
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
     gap: 1rem;
     max-width: 300px;
@@ -43,7 +45,7 @@
 }
 .project-github, .project-preview {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     padding: 0.5rem 1rem;
     background-color: #6c7681;
@@ -54,8 +56,11 @@
     border-radius: 10px;
     
 }
-.project-github-img{
+.project-preview-img{
     width: 30px;
+}
+.project-github-img{
+    width: 20px;
 }
 
 .project-github{
@@ -67,4 +72,11 @@
     background-color: #FEA301;
     border: 4px solid #ffe4a5;
     color: #000;
+}
+
+@media only screen and (max-width: 1610px) {
+    .project-tags{
+        grid-template-columns: auto auto auto;
+    }
+    
 }

@@ -1,29 +1,25 @@
 
 
-#hero{
-    /* padding: 0 10rem; */
-
-}
 .hero-container{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 7rem;
+    width: 95%;
+    margin: 7rem auto;
     
 }
 
 .hero-image{
-    width: 40%;
-    max-width: 500px;
+    
+    max-width: 50rem;
     
 }
 
 .hero-text h1{
-    font-family: 'Mokoto', sans-serif;
-
+    font-family: sans-serif;
+    font-weight: 700;
 
     font-size: 5rem;
-    -webkit-text-stroke: 4px #000;
     background: linear-gradient(to right, #B7DEED 0%, #71CEEF 25%, #21B4E2 75%, #B7DEED 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,12 +27,59 @@
 
 }
 
-.hero-text h3{
+.hero-text p{
     font-family: 'Istok Web', 'sans';   
     font-size: 2rem;
     margin: 3rem 0;
+    font-weight: bold;
 
 }
 .hero-text .intro{
     margin: 1rem 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    .hero-image{
+        width: 40%;
+    }
+    
+    .hero-text h1{
+        font-size: 4rem;
+
+    }
+    .hero-text p{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .hero-container{
+        width: 95%;
+        margin: 5rem auto;
+
+        
+    }
+
+    .hero-text h1{
+        font-size: 3rem;
+
+    }
+    .hero-text p{
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .hero-image{
+        width:20rem;
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+        justify-content: center;      
+        gap: 2rem;  
+    }
+    .hero-text{
+        justify-content: center;
+        align-items: center;
+    }
 }

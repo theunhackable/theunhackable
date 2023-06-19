@@ -26,8 +26,8 @@ function ProjectCard(props) {
       </div>
 
       <div className="project-buttons">
-        <a className='project-preview' href={props.live}><img className="project-preview-img" src={preview} alt="preview" />Preview</a>
-        <a className='project-github' href={props.github}><img className="project-github-img" src={github} alt="github" />GitHub</a>
+        <a rel='noreferrer' target="_blank" className='project-preview' href={props.live}><img className="project-preview-img" src={preview} alt="preview" />Preview</a>
+        <a rel='noreferrer' target="_blank" className='project-github' href={props.github}><img className="project-github-img" src={github} alt="github" />GitHub</a>
 
       </div>
       

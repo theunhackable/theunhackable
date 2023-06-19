@@ -2,9 +2,11 @@
     display: flex;
     justify-content: space-evenly;
     margin: 10rem;
+    gap: 2rem
 }
 
 .contact-basic > input {
+    width: 25rem;
     display: block;
     padding: 0.5rem 0.5rem;
     border-radius: 10px;
@@ -20,13 +22,18 @@
 }
 
 .contact-submit{
+    width: 25rem;
+    
+    margin-top: 2rem;
     padding: 0.3rem 0.5rem;
     color: #000;
     font-size: 20px;
     font-weight: 700;
-    align-items: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
+    
     border-radius: 10px;
     border: 2px solid #B8F4FF;
     background-color: #2F88FF;
@@ -41,7 +48,7 @@
     width: 20px;
 }
 .contact-desc > textarea{
-    width: 500px;
+    width: 25rem;
     height: 220px;
     background-color: #1F3C5F;
     border: 2px solid #B8F4FF;
@@ -55,5 +62,14 @@
     outline: none;
     box-shadow: 0 0 20px #B8F4FF;
     transition: 0.3s;
+
+}
+
+@media only screen and (max-width: 860px) {
+    .form-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 
 }

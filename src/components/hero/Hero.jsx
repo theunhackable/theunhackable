@@ -9,13 +9,13 @@ function Hero() {
         <div className="hero-container">
           <div className="hero-text">
 
-            <h3 className='intro'>My name is</h3>
+            <p className='intro'>My name is</p>
             <h1 className='name'>
               SRI RANGA SAI
             </h1>
-            <h3 className='role'>
+            <p className='role'>
               Full Stack Developer
-            </h3>
+            </p>
             <ContactCard />
             
           </div>

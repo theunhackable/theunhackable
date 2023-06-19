@@ -1,5 +1,5 @@
 /* header */
-#header{
+nav{
     
     background: rgba(81, 100, 123, 0.76);
     backdrop-filter: blur(10px);
@@ -7,11 +7,11 @@
     border-radius: 10px;
     position: fixed;
     align-items: center;
-    width: 90%;
-    top:30px;
+    width: 95%;
+    top:20px;
     left: 50%;
-transform: translateX(-50%);
-  max-width: 1900px;
+    transform: translateX(-50%);
+    max-width: 1900px;
 
 }
 /* brand */
@@ -66,7 +66,7 @@ nav{
     text-align: left;
 
 }
-.navigation-container > a{
+.ham-navigation-container > a, .navigation-container > a{
     background-color: #5ABCDB;
     font-weight: 700;
     font-family: 'Istok Web', sans-serif;
@@ -76,5 +76,59 @@ nav{
     text-decoration: none;
     border: 4px solid #000000;
     border-radius: 10px;
+    
 
 }
+
+.ham-navigation-container{
+    display: none;
+}
+
+@media only screen and (max-width: 860px) {
+    nav{
+        top: auto;
+        bottom: 1rem;
+        padding: 0.1rem;
+        justify-content: space-between;
+
+    }
+
+    .brand-name{
+        width: 5rem;
+    }
+    .brand-img{
+        width: 2rem;
+        height: 2rem;
+        transform: rotate(-45deg);
+    }
+    
+    .navigation-container{
+        display: none;
+    }
+    .ham-navigation-container{
+        position: fixed;
+        bottom: 6rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        align-items: left;
+        justify-content: left;
+        background: rgba(81, 100, 123, 0.76);
+        backdrop-filter: blur(10px);
+        width: 50%;
+        border: 4px solid #B7EDFF;
+        border-radius: 10px;
+        box-shadow: 0 0 20px #B8F4FF;
+
+    }
+    .ham-navigation-container > ul{
+
+        flex-direction: column;
+
+    }
+    .ham-navigation-container > a{
+        width: 7rem;
+    }
+}
+
