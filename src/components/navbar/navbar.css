@@ -12,6 +12,7 @@ nav{
     left: 50%;
     transform: translateX(-50%);
     max-width: 1900px;
+    z-index: 999;
 
 }
 /* brand */

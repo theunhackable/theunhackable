@@ -37,7 +37,7 @@ function Projects() {
     <section id="projects">
       <SubHeading text="Projects"/>
       <div className="projects-container">  
-        {projects.map(project => <ProjectCard key={project.heading}
+        {projects.map((project, ind) => <ProjectCard key={ind}
                                         img={project.img}
                                         heading={project.heading}
                                         desc={project.desc}

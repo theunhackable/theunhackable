@@ -3,29 +3,48 @@ import github from '../../assets/icons/github-round.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
 import mail from '../../assets/icons/mail.svg'
 import resume from '../../assets/resumes/fullstackdev-asapp.pdf'
+import { motion } from 'framer-motion'
 
 
 function ContactCard() {
   return (
     <div className="contact-card-container">
       <div className="social-container">
-        <div className="contact-card">
-          <img src={github} alt="" />
-        </div>
-        <div className="contact-card">
-          <img src={linkedin} alt="linkedin" />
-        </div>
-        <div className="contact-card">
+        <a target='_blank' href='https://github.com/theunhackable' rel="noreferrer">
+          <motion.div
+          whileHover={{scale: 1.05}}
+          className="contact-card">
+            <img src={github} alt="" />
+          </motion.div>
+        </a>
+        <a target='_blank' href='https://www.linkedin.com/in/srsp1116' rel="noreferrer">
+          <motion.div
+            whileHover={{scale: 1.05}}
+            className="contact-card">
+            <img src={linkedin} alt="linkedin" />
+          </motion.div>
+        </a>
+        <a target='_blank' href='mailto:srirangasaipagala@gmail.com' rel="noreferrer">
+        <motion.div 
+         whileHover={{scale: 1.05}}
+        className="contact-card">
           <img src={mail} alt="mail" />
-        </div>
+        </motion.div>
+        </a>
       </div>
       <div className="resume-contact-container">
-        <div className="resume-button">
+        <motion.div
+         whileHover={{scale: 1.1}}
+        
+        className="resume-button">
           <a rel="noreferrer" target="_blank" href={resume}>RESUME</a>
-        </div>
-        <div className="contact-button">
+        </motion.div>
+        <motion.div
+         whileHover={{scale: 1.1}}
+        
+        className="contact-button">
           <a href="#contact">CONTACT</a>
-        </div>
+        </motion.div>
       </div>
     </div>
   )

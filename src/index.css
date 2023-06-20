@@ -5,7 +5,7 @@
   color: #CBDDFF;
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
-  scroll-snap-type:y proximity;
+  /* scroll-snap-type:y proximity; */
   font-family: sans-serif;
 }
 
