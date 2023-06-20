@@ -1,7 +1,6 @@
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
-import config from '../../assets/particlesjs-config.json'
 
 const BG = () => {
     const particlesInit = useCallback(async engine => {
