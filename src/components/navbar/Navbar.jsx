@@ -41,7 +41,6 @@ function Navbar() {
     <header id='header'>
       <nav>
         <div className="brand-container">
-          <img className='brand-img' src={logo} alt="moon" />
           <img className='brand-name' src={dark_text} alt="" />
         </div>
         <div className="nav-hamburger">

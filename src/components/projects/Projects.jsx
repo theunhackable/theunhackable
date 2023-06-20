@@ -30,7 +30,7 @@ function Projects() {
       skills: ["HTML", "CSS", 'JavaScript', 'Python'],
       img: cryptor
 
-    }
+    },
    
   ]
   return (
@@ -38,9 +38,9 @@ function Projects() {
       <SubHeading text="Projects"/>
       <div className="projects-container">  
         {projects.map(project => <ProjectCard key={project.heading}
-                                        img={project.img} 
-                                        heading={project.heading} 
-                                        desc={project.desc} 
+                                        img={project.img}
+                                        heading={project.heading}
+                                        desc={project.desc}
                                         live={project.live}
                                         github={project.github}
                                         skills={project.skills}
