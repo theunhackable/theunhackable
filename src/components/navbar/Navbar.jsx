@@ -1,5 +1,4 @@
 import './navbar.css';
-import logo_dark from '../../assets/icons/moon2.svg';
 import dark_text from '../../assets/images/brand-dark.png'
 import { useState } from 'react';
 import { MdClear, MdSegment } from 'react-icons/md';
@@ -35,7 +34,7 @@ function Navbar() {
           </ul>
     )
   }
-  const logo = logo_dark;
+  
   const [isHam, setHam] = useState(false);
   return (
     <header id='header'>

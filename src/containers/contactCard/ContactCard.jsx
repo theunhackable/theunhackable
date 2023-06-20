@@ -2,7 +2,7 @@ import './contactCard.css'
 import github from '../../assets/icons/github-round.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
 import mail from '../../assets/icons/mail.svg'
-
+import resume from '../../assets/resumes/fullstackdev-asapp.pdf'
 
 
 function ContactCard() {
@@ -21,10 +21,10 @@ function ContactCard() {
       </div>
       <div className="resume-contact-container">
         <div className="resume-button">
-          <a href="SMTG">RESUME</a>
+          <a rel="noreferrer" target="_blank" href={resume}>RESUME</a>
         </div>
         <div className="contact-button">
-          <a href="SMTG">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
       </div>
     </div>
