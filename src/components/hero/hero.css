@@ -74,13 +74,11 @@
     .hero-image{
         width:20rem;
     }
+    
     .hero-container{
-        flex-direction: column-reverse;
-        justify-content: center;      
-        gap: 2rem;  
+        flex-direction: column-reverse; 
     }
     .hero-text{
-        justify-content: center;
-        align-items: center;
+        text-align: center;
     }
 }

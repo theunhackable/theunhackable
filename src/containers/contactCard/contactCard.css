@@ -97,3 +97,22 @@
         height:10px;
     }
 }
+@media only screen and (max-width: 670px) {
+    .contact-card-container{
+        align-items: center;
+    }
+
+    .resume-button > a, .contact-button > a{
+        font-size: 14px;
+
+    }
+
+    .social-container  img{
+        width: 25px;
+        height:25px;
+    }
+    .contact-card{
+        width: 35px;
+        height:35px;
+    }
+}
