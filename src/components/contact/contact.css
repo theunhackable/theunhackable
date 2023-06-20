@@ -14,8 +14,12 @@
     height: 50px;
     background-color: #1F3C5F;
     border: 2px solid #B8F4FF;
-    transition: 0.3s;
 }
+.contact-basic > input:focus {
+    transition: 0.3s;
+
+}
+
 .contact-basic > input:focus{
     outline: none;
     box-shadow: 0 0 20px #B8F4FF;
@@ -72,6 +76,19 @@
         align-items: center;
         margin: 5rem auto;
 
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .contact-desc > textarea{
+        width: 95vw;
+    }
+    .contact-submit{
+        width: 95vw;
+    }
+    .contact-basic > input {
+        width: 95vw;
     }
 
 }
