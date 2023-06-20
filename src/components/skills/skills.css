@@ -22,7 +22,17 @@
 @media only screen and (max-width: 675px) {
     
     .skills-container{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
+    
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 375px) {
+    
+    .skills-container{
+        grid-template-columns: auto auto ;
     
     }
     
