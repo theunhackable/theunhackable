@@ -1,7 +1,7 @@
 .form-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 10rem;
+    margin: 10rem auto;
     gap: 2rem
 }
 
@@ -70,6 +70,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        margin: 5rem auto;
+
     }
 
 }

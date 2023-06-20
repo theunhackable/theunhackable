@@ -5,7 +5,7 @@
     gap: 2rem;
     max-width: 50rem;
     justify-content: space-evenly;
-    margin: 10rem auto
+    margin: 10rem auto;
 }
 
 
@@ -13,6 +13,8 @@
     .skills-container{
         justify-content: space-evenly;
         max-width: 35rem;
+        margin: 5rem auto;
+
 
     }
 }

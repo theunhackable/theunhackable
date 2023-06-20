@@ -65,6 +65,8 @@ body{
   }
   *{
     scroll-padding-top: 2rem;
+    scroll-snap-type:none;
+
 
   }
 }
