@@ -41,7 +41,7 @@ function Navbar() {
     <header id='header'>
       <nav>
         <div className="brand-container">
-          <img className='brand-name' src={dark_text} alt="" />
+          <a href='#hero'><img className='brand-name' src={dark_text} alt="" /></a>
         </div>
         <div className="nav-hamburger">
           <div onClick={() => setHam(!isHam)} style={{width: "100%"}}>
