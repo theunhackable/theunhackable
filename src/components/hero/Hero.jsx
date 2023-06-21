@@ -14,7 +14,7 @@ function Hero() {
               SRI RANGA SAI
             </h1>
             <p className='role'>
-              Full Stack Developer
+              Full Stack Web Developer
             </p>
             <ContactCard />
             

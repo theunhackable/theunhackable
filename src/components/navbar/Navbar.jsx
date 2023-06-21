@@ -2,6 +2,7 @@ import './navbar.css';
 import dark_text from '../../assets/images/brand-dark.png'
 import { useState } from 'react';
 import { MdClear, MdSegment } from 'react-icons/md';
+import { motion, AnimatePresence } from 'framer-motion';
 
 function Navbar() {
   const NavElements = () => {
@@ -54,14 +55,21 @@ function Navbar() {
           </a>
         </div>
       </nav>
+      <AnimatePresence>
+
       {isHam && (
-          <div className='ham-navigation-container'>
-            <NavElements />
-            <a href="#contact">
-              SAY HI!
-            </a>
-        </div>
+            <motion.div 
+            initial={{x: "100vw"}}
+            animate={{x: 0}}
+            exit={{x: "100vw"}}
+            className='ham-navigation-container'>
+              <NavElements />
+              <a href="#contact">
+                SAY HI!
+              </a>
+          </motion.div>
         )}
+        </AnimatePresence>
     </header>
   )
 }

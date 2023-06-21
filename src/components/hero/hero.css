@@ -20,16 +20,33 @@
     font-weight: 700;
 
     font-size: 5rem;
-    background: linear-gradient(to right, #B7DEED 0%, #71CEEF 25%, #21B4E2 75%, #B7DEED 100%);
+    background: linear-gradient(45deg, 
+    #20B2AB,
+     #1AA3A6,
+     #1395A1,
+     #0D869D,
+     #067898,
+     #006993);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 5px#B7DEED;
+    /* text-shadow: 0 0 5px#B7DEED; */
+    background-size: 400%;
+    animation: bg-animation-text 3s infinite alternate;
 
+}
+@keyframes bg-animation-text {
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: center;
+    }
+    
 }
 
 .hero-text p{
-    font-family: 'Istok Web', 'sans';   
+    font-family: 'Istok Web', sans-serif;   
     font-size: 2rem;
     margin: 3rem 0;
     font-weight: bold;
