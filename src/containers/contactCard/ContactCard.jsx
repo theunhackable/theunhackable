@@ -14,7 +14,7 @@ function ContactCard() {
           <motion.div
           whileHover={{scale: 1.05}}
           className="contact-card">
-            <img src={github} alt="" />
+            <img src={github} alt="github" />
           </motion.div>
         </a>
         <a target='_blank' href='https://www.linkedin.com/in/srsp1116' rel="noreferrer">
