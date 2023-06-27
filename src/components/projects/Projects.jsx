@@ -2,6 +2,8 @@
 import { SubHeading, ProjectCard } from '../../containers';
 import gpt3 from '../../assets/projects/gpt3.png';
 import cryptor from '../../assets/projects/cryptor.png';
+import promptopia from '../../assets/projects/promptopia.png'
+
 import'./projects.css'
 
 
@@ -21,14 +23,20 @@ function Projects() {
     },
     {
       heading: 'Cryptor',
-      desc: `Cryptor is a web application deployed on pythonanywhere.This website is used to encrypt and decrypt text files.
-      It takes text file as input, encrypted or decrypted according to the user requirement and produce output as a text file.
-      Used HTML and CSS for front-end, Flask(Python3) for back-end.
-      Used JavaScript for input validation.`,
+      desc: `This website is used to encrypt and decrypt text files.`,
       github:'https://github.com/theunhackable/cryptor',
       live: 'http://cryptor.pythonanywhere.com/',
       skills: ["HTML", "CSS", 'JavaScript', 'Python'],
       img: cryptor
+
+    },
+    {
+      heading: 'Promptopia',
+      desc: `Promptopia is a full stack nextjs project that is useful to create edit and use AI prompts. Sign In with your google account and get started....`,
+      github:'https://github.com/theunhackable/promptopia',
+      live: 'https://promptopia-two-dun.vercel.app/',
+      skills: ["HTML", "CSS", 'JavaScript', 'Python'],
+      img: promptopia
 
     },
    
