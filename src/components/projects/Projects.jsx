@@ -10,6 +10,15 @@ import'./projects.css'
 function Projects() {
   const projects = [
     {
+      heading: 'Promptopia',
+      desc: `Promptopia is a full stack nextjs project that is useful to create edit and use AI prompts. Sign In with your google account and get started....`,
+      github:'https://github.com/theunhackable/promptopia',
+      live: 'https://promptopia-two-dun.vercel.app/',
+      skills: ["HTML", "CSS", 'JavaScript'],
+      img: promptopia
+
+    },
+    {
       heading: 'GPT3 Landing Page',
       desc: `Landing page of GPT-3, build using React.Js.
       This web page is responsive and mobile friendly.
@@ -28,15 +37,6 @@ function Projects() {
       live: 'http://cryptor.pythonanywhere.com/',
       skills: ["HTML", "CSS", 'JavaScript', 'Python'],
       img: cryptor
-
-    },
-    {
-      heading: 'Promptopia',
-      desc: `Promptopia is a full stack nextjs project that is useful to create edit and use AI prompts. Sign In with your google account and get started....`,
-      github:'https://github.com/theunhackable/promptopia',
-      live: 'https://promptopia-two-dun.vercel.app/',
-      skills: ["HTML", "CSS", 'JavaScript', 'Python'],
-      img: promptopia
 
     },
    
