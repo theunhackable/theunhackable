@@ -2,7 +2,7 @@ import './contactCard.css'
 import github from '../../assets/icons/github-round.svg'
 import linkedin from '../../assets/icons/linkedin.svg'
 import mail from '../../assets/icons/mail.svg'
-import resume from '../../assets/resumes/fullstackdev-asapp.pdf'
+import resume from '../../assets/resumes/resume-jul-23.pdf'
 import { motion } from 'framer-motion'
 
 
