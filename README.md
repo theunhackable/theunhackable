@@ -1,7 +1,7 @@
 ![Sri Ranga Sai](https://github.com/theunhackable/theunhackable/assets/53367382/c459e472-3209-4be8-8b29-54851ef11154)
 
 # 💫 About Me:
-🔭 I’m currently expanding my knowledge on Full Stack Web Development<br>👯 I’m looking to collaborate on Full Stack Web Projects both web2and web3<br>🤝 I’m looking for help with <br>🌱 I’m currently learning ReactJs and Web3 <br>⚡ He who knows not, knows not. <br>
+🔭 I’m currently broadening my expertise in Full Stack Web Development for both web2 and web3.<br>👯 I’m eager to collaborate on Full Stack Web Projects, with a focus on enhancing web2 experiences.<br>🤝 I’m open to assistance and insights from the community.<br>🌱 I’m currently mastering ReactJs for dynamic user interfaces in web2 applications.<br>⚡ "He who knows not, knows not" - Constantly seeking knowledge and growth in the realm of web2 technologies.<br>
 🔗 [Check my portfolio](https://srirangasai.dev)
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/srsp1116) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/https://twitter.com/SriRangaSaiP) 
